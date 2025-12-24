@@ -1,6 +1,6 @@
 # Arithmetic Coding for .NET
 
-<img align="right" src="media/logo/logo.png" width="128" height="128">
+<img align="right" src="media/Logo/logo.png" width="128" height="128">
 
 ArithmeticCoding is a tiny, high-performance, zero allocation library for .NET that simplifies implementation of arithmetically coded file
 formats and codecs. It is **highly** optimized for performance. It implements arithmetic decoding/encoding for different file formats and codecs, as listed below.
