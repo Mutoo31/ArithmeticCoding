@@ -17,7 +17,7 @@ Arithmetic coding can be a very complex task. If you ever tried to write a file 
 or any other programming language, i.e. H.264, you know how much of a pain it can be to
 implement arithmetic coding correctly and efficiently. This library aims to solve that problem by
 providing a simple and efficient API for arithmetic coding operations. You'll need at least
-.NET Standard 2.0 to use this library, which means it works on .NET Framework 4.6.1+. Newest
+.NET Standard 2.0 to use this library, which means it works on .NET Framework 4.6.1 or newer. Newest
 .NET versions are of course supported as well, i.e. .NET 10.
 
 # Getting started
