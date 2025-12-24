@@ -1643,9 +1643,9 @@ namespace ArithmeticCoding.H264
             int absMvdCompA = GetAbsMvdComp(in a, predModeEqualFlagA, in currentMacroblock);
             int absMvdCompB = GetAbsMvdComp(in b, predModeEqualFlagB, in currentMacroblock);
 
-            if ((absMvdCompA > 32 && absMvdCompB > 32) || (absMvdCompA + absMvdCompB > 32))
+            if ((absMvdCompA > 32 || absMvdCompB > 32) || (absMvdCompA + absMvdCompB > 32))
                 return 2;
-            else if (absMvdCompA + absMvdCompB > 32)
+            else if (absMvdCompA + absMvdCompB > 2)
                 return 1;
             else
                 return 0;
