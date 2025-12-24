@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="media/media.shproj" Id="afe97ae1-18fd-414e-85a5-f6a5430e7ff8" />
+  <Project Path="ArithmeticCoding/ArithmeticCoding.csproj" />
+</Solution>

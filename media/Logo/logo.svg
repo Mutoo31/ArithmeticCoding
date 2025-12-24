@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" style="background-color: black">
+  <text x="12" y="30" font-family="Lucida Console" fill="limegreen" font-size="24px">1 0</text>
+  <text x="12" y="50" font-family="Lucida Console" fill="limegreen" font-size="24px">0 1</text>
+  <text x="25" y="65" font-family="Segoe UI" fill="cyan" font-size="36px" font-weight="bold">+-</text>
+</svg>
