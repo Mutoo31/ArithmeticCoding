@@ -57,10 +57,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="H264\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\media\Logo\logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
