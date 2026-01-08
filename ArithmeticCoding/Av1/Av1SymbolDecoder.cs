@@ -114,7 +114,7 @@ public class Av1SymbolDecoder
         this.symbolValue = (int)Math.Pow(paddedData, (((this.symbolValue + 1) << bits) - 1));
         this.symbolMaxBits -= bits;
 
-        int N = cdf.Length;
+        int N = cdf.Length - 1;
 
         if (!this.disableCdfUpdate)
         {

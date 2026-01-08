@@ -68,7 +68,7 @@ namespace ArithmeticCoding.H263
             this.Length = this.High - this.Low + 1;
             this.Cumulative = (-1 + (this.CodeValue - this.Low + 1) *cumulativeFrequencies[0]) / this.Length;
 
-            for (int index = 1; cumulativeFrequencies[index] > this.Cumulative; index++)
+            for (this.Index = 1; cumulativeFrequencies[this.Index] > this.Cumulative; this.Index++)
             {
             }
 
@@ -115,7 +115,7 @@ namespace ArithmeticCoding.H263
             this.Length = this.High - this.Low + 1;
             this.Cumulative = (-1 + (this.CodeValue - this.Low + 1) * cumulativeFrequencies[0]) / this.Length;
 
-            for (int index = 1; cumulativeFrequencies[index] > this.Cumulative; index++)
+            for (this.Index = 1; cumulativeFrequencies[this.Index] > this.Cumulative; this.Index++)
             {
             }
 
